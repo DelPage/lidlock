@@ -2,6 +2,24 @@
 
 All notable public releases of LidLock are tracked here.
 
+## 1.0.1 - 2026-06-19
+
+Maintenance release.
+
+- Fixed a restore-on-battery policy path that could ask for admin approval a
+  second time immediately after enabling Survive Lid Close while on battery.
+- Kept explicit Survive Lid Close enables from being auto-undone during the
+  same battery session.
+- Improved menu/window state consistency while privileged operations are in
+  progress.
+- Fixed Launch at Login cleanup when macOS leaves the login item in a pending
+  approval state.
+
+Artifact:
+
+- `LidLock.dmg`
+- SHA-256: `d4e2e1b97ffcf1315f8915a9519ea328dffefde65bd02f3ccd9726aa0ed44c47`
+
 ## 1.0.0 - 2026-06-19
 
 Initial public release.
