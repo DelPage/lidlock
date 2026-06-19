@@ -21,7 +21,7 @@ LidLock is a signed and notarized macOS app for servers, downloads, bots, AI wor
 - Latest GitHub release: [LidLock.dmg](https://github.com/DelPage/lidlock/releases/latest/download/LidLock.dmg)
 - Direct DelPage mirror: [delpageinc.com/downloads/LidLock.dmg](https://delpageinc.com/downloads/LidLock.dmg)
 - Homebrew Cask: `brew install --cask DelPage/lidlock/lidlock`
-- SHA-256 for v1.1.0: `09c2a796d81e1fcb8930dd30f356aca8a41413aadf66277b4f14186071d0c1b7`
+- SHA-256 for v1.1.1: `fd4332c3b90b3924fe1a7fba31cde00881edbff7f6e1ddff8e96ec29dd2ce201`
 
 LidLock requires **macOS 13 Ventura or newer**. The distributed app is signed with Apple Developer ID and notarized by Apple.
 

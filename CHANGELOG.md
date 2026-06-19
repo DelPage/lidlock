@@ -2,6 +2,20 @@
 
 All notable public releases of LidLock are tracked here.
 
+## 1.1.1 - 2026-06-19
+
+Helper hotfix release.
+
+- Fixed the password-free helper rejecting LidLock after install because the
+  helper did not request its signing Team ID from Security.framework.
+- Added a release check that fails if the helper cannot read the expected Team
+  ID before notarization.
+
+Artifact:
+
+- `LidLock.dmg`
+- SHA-256: `fd4332c3b90b3924fe1a7fba31cde00881edbff7f6e1ddff8e96ec29dd2ce201`
+
 ## 1.1.0 - 2026-06-19
 
 Password-free lid control release.
