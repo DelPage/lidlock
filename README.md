@@ -4,7 +4,7 @@ Keep your MacBook running with the lid closed.
 
 [![macOS 13+](https://img.shields.io/badge/macOS-13%2B-111111?labelColor=0f172a)](https://support.apple.com/macos)
 [![Signed and notarized](https://img.shields.io/badge/Developer%20ID-signed%20%2B%20notarized-22c55e?labelColor=0f172a)](https://developer.apple.com/developer-id/)
-[![Download](https://img.shields.io/badge/Download-LidLock.dmg-2563eb?labelColor=0f172a)](https://github.com/imwalkinhere/lidlock/releases/latest/download/LidLock.dmg)
+[![Download](https://img.shields.io/badge/Download-LidLock.dmg-2563eb?labelColor=0f172a)](https://github.com/DelPage/lidlock/releases/latest/download/LidLock.dmg)
 
 LidLock is a signed and notarized macOS app for servers, downloads, bots, AI work, and long builds. It gives you clean controls for the Mac power settings people usually manage with Terminal commands.
 
@@ -18,9 +18,9 @@ LidLock is a signed and notarized macOS app for servers, downloads, bots, AI wor
 
 ## Download
 
-- Latest GitHub release: [LidLock.dmg](https://github.com/imwalkinhere/lidlock/releases/latest/download/LidLock.dmg)
+- Latest GitHub release: [LidLock.dmg](https://github.com/DelPage/lidlock/releases/latest/download/LidLock.dmg)
 - Direct DelPage mirror: [delpageinc.com/downloads/LidLock.dmg](https://delpageinc.com/downloads/LidLock.dmg)
-- Homebrew Cask: `brew install --cask imwalkinhere/lidlock/lidlock`
+- Homebrew Cask: `brew install --cask DelPage/lidlock/lidlock`
 - SHA-256 for v1.0.1: `d4e2e1b97ffcf1315f8915a9519ea328dffefde65bd02f3ccd9726aa0ed44c47`
 
 LidLock requires **macOS 13 Ventura or newer**. The distributed app is signed with Apple Developer ID and notarized by Apple.
@@ -54,7 +54,7 @@ Read the hosted privacy policy: [delpageinc.com/privacy/lidlock](https://delpage
 
 ## Support and Bug Reports
 
-Use [GitHub Issues](https://github.com/imwalkinhere/lidlock/issues) for bug reports and compatibility notes. Please include your macOS version, Mac model, LidLock version, and what you expected to happen.
+Use [GitHub Issues](https://github.com/DelPage/lidlock/issues) for bug reports and compatibility notes. Please include your macOS version, Mac model, LidLock version, and what you expected to happen.
 
 Optional support is available at [delpageinc.com/donate](https://delpageinc.com/donate). LidLock works the same whether or not you donate.
 
@@ -68,6 +68,6 @@ LidLock is proprietary software from DelPage Technologies. See [EULA.md](EULA.md
 
 - Product page: [delpageinc.com/products#lidlock](https://delpageinc.com/products#lidlock)
 - Clean product URL: [delpageinc.com/lidlock](https://delpageinc.com/lidlock)
-- Homebrew tap: [github.com/imwalkinhere/homebrew-lidlock](https://github.com/imwalkinhere/homebrew-lidlock)
+- Homebrew tap: [github.com/DelPage/homebrew-lidlock](https://github.com/DelPage/homebrew-lidlock)
 - Privacy policy: [delpageinc.com/privacy/lidlock](https://delpageinc.com/privacy/lidlock)
 - Changelog: [CHANGELOG.md](CHANGELOG.md)

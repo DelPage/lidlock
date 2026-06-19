@@ -2,17 +2,17 @@
 
 For bug reports, use GitHub Issues:
 
-https://github.com/imwalkinhere/lidlock/issues
+https://github.com/DelPage/lidlock/issues
 
 Install options:
 
 ```sh
-brew install --cask imwalkinhere/lidlock/lidlock
+brew install --cask DelPage/lidlock/lidlock
 ```
 
 or download the signed DMG:
 
-https://github.com/imwalkinhere/lidlock/releases/latest/download/LidLock.dmg
+https://github.com/DelPage/lidlock/releases/latest/download/LidLock.dmg
 
 For each report, include:
 
