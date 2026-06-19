@@ -1,0 +1,74 @@
+name: Bug report
+description: Report a LidLock bug or compatibility issue.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a LidLock issue. Please avoid posting private device details, secrets, payment data, or sensitive logs.
+  - type: input
+    id: lidlock-version
+    attributes:
+      label: LidLock version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      placeholder: "macOS 15.5, macOS 14.7, etc."
+    validations:
+      required: true
+  - type: input
+    id: mac-model
+    attributes:
+      label: Mac model
+      placeholder: "MacBook Pro M3, MacBook Air M2, Mac mini M4, etc."
+    validations:
+      required: true
+  - type: dropdown
+    id: feature
+    attributes:
+      label: Area
+      options:
+        - Survive Lid Close
+        - Keep System Awake
+        - Keep Display Awake
+        - Walk Away
+        - Restore Normal Sleep
+        - Launch at Login
+        - Menu bar
+        - Install, download, signing, or Gatekeeper
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open LidLock
+        2. Turn on ...
+        3. Close the lid / restore / quit ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Extra context
+      description: Add logs or screenshots only if they do not contain sensitive information.

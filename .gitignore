@@ -1,0 +1,12 @@
+.DS_Store
+.env
+*.key
+*.p8
+*.mobileprovision
+*.provisionprofile
+DerivedData/
+build/
+*.xcarchive
+*.zip
+*.dmg
+node_modules/
