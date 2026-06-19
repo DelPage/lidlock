@@ -21,13 +21,14 @@ LidLock is a signed and notarized macOS app for servers, downloads, bots, AI wor
 - Latest GitHub release: [LidLock.dmg](https://github.com/DelPage/lidlock/releases/latest/download/LidLock.dmg)
 - Direct DelPage mirror: [delpageinc.com/downloads/LidLock.dmg](https://delpageinc.com/downloads/LidLock.dmg)
 - Homebrew Cask: `brew install --cask DelPage/lidlock/lidlock`
-- SHA-256 for v1.0.1: `d4e2e1b97ffcf1315f8915a9519ea328dffefde65bd02f3ccd9726aa0ed44c47`
+- SHA-256 for v1.1.0: `09c2a796d81e1fcb8930dd30f356aca8a41413aadf66277b4f14186071d0c1b7`
 
 LidLock requires **macOS 13 Ventura or newer**. The distributed app is signed with Apple Developer ID and notarized by Apple.
 
 ## What It Does
 
 - **Survive Lid Close** keeps your MacBook running when the lid is closed.
+- **Password-free lid control** can install a signed helper from Settings so approved users do not have to enter their password every time.
 - **Keep System Awake** blocks idle system sleep while LidLock runs.
 - **Keep Display Awake** prevents the display from sleeping.
 - **Walk Away** keeps work running while turning the display off.
