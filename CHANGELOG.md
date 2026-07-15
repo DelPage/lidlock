@@ -4,15 +4,10 @@ All notable public releases of LidLock are tracked here.
 
 ## 1.1.3 - 2026-07-15
 
-Menu-bar workflow release.
-
 - Closing the main window now leaves LidLock running in the macOS menu bar.
-- Added a state-aware menu-bar tooltip that shows the current protection status
-  and points users to the menu controls.
-- Kept **Open LidLock** and **Quit LidLock** in the menu so hiding the window and
-  exiting the app are separate, predictable actions.
-- Consolidated public distribution around this GitHub repository and its signed
-  DMG releases.
+- Hovering over the menu-bar icon shows the current sleep setting.
+- **Open LidLock** brings the window back.
+- **Quit LidLock** exits the app and runs its normal sleep cleanup.
 
 Artifact:
 
@@ -40,8 +35,8 @@ Password-free lid control release.
 This build was superseded by 1.1.1 after a helper validation bug was found. The
 public release asset was removed; use 1.1.1 or newer.
 
-- Added an optional signed privileged helper in Settings so Survive Lid Close
-  can turn on and off without asking for the admin password every time.
+- Added an optional signed helper in Settings so lid-close behavior can change
+  without asking for the administrator password every time.
 - Added a warning dialog before installing the helper.
 - Kept the normal macOS admin prompt as the fallback when the helper is off.
 - Added release checks that fail if the helper or launchd plist is missing from
@@ -56,13 +51,13 @@ Artifact:
 
 Maintenance release.
 
-- Fixed a restore-on-battery policy path that could ask for admin approval a
-  second time immediately after enabling Survive Lid Close while on battery.
-- Kept explicit Survive Lid Close enables from being auto-undone during the
-  same battery session.
+- Fixed a battery safety path that could ask for administrator approval twice
+  after enabling lid-close behavior while unplugged.
+- Kept an intentional lid-close choice from being reversed during the same
+  battery session.
 - Improved menu/window state consistency while privileged operations are in
   progress.
-- Fixed Launch at Login cleanup when macOS leaves the login item in a pending
+- Fixed Open at login cleanup when macOS leaves the login item in a pending
   approval state.
 
 Artifact:
@@ -76,7 +71,8 @@ Initial public release.
 
 - Added signed and notarized Developer ID distribution.
 - Added direct `.dmg` download for macOS 13+.
-- Added Survive Lid Close, Keep System Awake, Keep Display Awake, Walk Away, Turn Off Display, and Restore Normal Sleep controls.
+- Added controls for working with the lid shut, keeping the Mac or display
+  awake, turning off the display immediately, and restoring normal sleep.
 - Added local-only privacy posture with no accounts, analytics, telemetry, or automatic network access during normal operation.
 - Added startup and quit safeguards for restoring normal sleep state after crashes or canceled restores.
 

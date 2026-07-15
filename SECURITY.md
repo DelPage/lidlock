@@ -10,7 +10,7 @@ Include:
 - LidLock version.
 - macOS version.
 - Mac model and processor family.
-- A concise reproduction path.
+- Steps that reproduce the issue.
 - Whether the issue involves `pmset`, authorization prompts, app signing, or Gatekeeper.
 
 The public GitHub repository is for distribution and issue tracking. LidLock source code is not published here.

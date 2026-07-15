@@ -5,7 +5,7 @@
 <h1 align="center">Support LidLock</h1>
 
 <p align="center">
-  LidLock is free for everyone. If it helps you, a one time donation supports
+  LidLock is free for everyone. If it helps you, a one-time donation supports
   continued macOS compatibility, signing, testing, and maintenance.
 </p>
 
@@ -28,7 +28,7 @@
 
 ---
 
-## What Your Support Covers
+## What Donations Support
 
 - Apple Developer signing and notarization.
 - Testing against new macOS releases.

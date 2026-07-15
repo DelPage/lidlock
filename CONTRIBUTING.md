@@ -5,13 +5,13 @@ compiled releases, customer documentation, screenshots, checksums, policies,
 and issue templates. The application source is maintained privately by DelPage
 Technologies and is not part of this repository.
 
-## Welcome here
+## How to help
 
 - Bug reports and compatibility notes through GitHub Issues.
 - Documentation corrections and clearer customer instructions.
 - Accessibility, usability, and Mac-model compatibility feedback.
 
-## Not accepted here
+## What stays private
 
 - Application or privileged-helper source code.
 - Signing certificates, provisioning files, credentials, or private keys.

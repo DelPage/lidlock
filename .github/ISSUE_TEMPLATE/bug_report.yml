@@ -34,13 +34,14 @@ body:
     attributes:
       label: Area
       options:
-        - Survive Lid Close
-        - Keep System Awake
-        - Keep Display Awake
+        - Normal Sleep
+        - Lid Closed
+        - Stay Awake
+        - Keep Screen On
         - Walk Away
-        - Restore Normal Sleep
-        - Launch at Login
+        - Open at login
         - Menu bar
+        - Password-free lid control
         - Install, download, signing, or Gatekeeper
         - Other
     validations:
@@ -51,8 +52,8 @@ body:
       label: Steps to reproduce
       placeholder: |
         1. Open LidLock
-        2. Turn on ...
-        3. Close the lid / restore / quit ...
+        2. Choose ...
+        3. Close the lid, wake the display, or quit ...
     validations:
       required: true
   - type: textarea
