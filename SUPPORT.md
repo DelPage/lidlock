@@ -19,6 +19,7 @@ For each report, include:
 
 Optional support for continued maintenance is available at:
 
-https://delpageinc.com/donate
+https://donate.stripe.com/aFa00b4b27J2cR18e4asg03
 
-LidLock works the same whether or not you donate.
+LidLock is free and works the same whether or not you donate. Donations are
+processed by Stripe for DelPage Technologies, the publisher of LidLock.

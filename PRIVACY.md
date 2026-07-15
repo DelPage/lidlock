@@ -2,10 +2,6 @@
 
 Last updated: 2026-06-17
 
-The hosted privacy policy is published at:
-
-https://delpageinc.com/privacy/lidlock
-
 LidLock is designed to be private by default. **It collects nothing.**
 
 ## What LidLock Does Not Do
@@ -25,8 +21,12 @@ With your explicit authorization, LidLock changes local macOS power-management s
 
 ## Optional Support Links
 
-LidLock includes a voluntary support link. Selecting it opens your browser to a DelPage/Stripe-hosted page. LidLock does not process payments, does not store payment information, and does not receive card details.
+LidLock includes a voluntary support link. Selecting it opens your browser to
+a Stripe-hosted donation page. Stripe processes the donation for DelPage
+Technologies, the publisher of LidLock. LidLock does not process payments,
+store payment information, or receive card details.
 
 ## Contact
 
-Questions about this policy: DelPage Technologies at https://delpageinc.com.
+Questions about this policy: DelPage Technologies at
+[hello@delpageinc.com](mailto:hello@delpageinc.com).

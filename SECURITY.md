@@ -2,9 +2,8 @@
 
 Please do not post secrets, private device information, payment details, crash logs with personal paths, or sensitive business information in public issues.
 
-For security-sensitive reports, contact DelPage Technologies through:
-
-https://delpageinc.com
+For security-sensitive reports, contact DelPage Technologies at
+[hello@delpageinc.com](mailto:hello@delpageinc.com).
 
 Include:
 

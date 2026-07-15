@@ -10,6 +10,8 @@ LidLock is a signed and notarized macOS app for local servers, downloads,
 automations, and long builds. It gives you clear controls for the Mac power
 settings people usually manage with Terminal commands.
 
+LidLock is free software published by DelPage Technologies.
+
 <p align="center">
   <img src="assets/lidlock-icon.png" width="96" alt="LidLock app icon">
 </p>
@@ -54,13 +56,15 @@ LidLock is private by default:
 - No telemetry.
 - No automatic network access during normal operation.
 
-Read the hosted privacy policy: [delpageinc.com/privacy/lidlock](https://delpageinc.com/privacy/lidlock)
+Read the [LidLock privacy policy](PRIVACY.md).
 
 ## Support and Bug Reports
 
 Use [GitHub Issues](https://github.com/DelPage/lidlock/issues) for bug reports and compatibility notes. Please include your macOS version, Mac model, LidLock version, and what you expected to happen.
 
-Optional support is available at [delpageinc.com/donate](https://delpageinc.com/donate). LidLock works the same whether or not you donate.
+If you would like to support continued maintenance, you can make an optional
+[donation through Stripe](https://donate.stripe.com/aFa00b4b27J2cR18e4asg03).
+LidLock works the same whether or not you donate.
 
 ## Closed Source Notice
 
@@ -72,6 +76,7 @@ for the public-repository boundary.
 
 ## Links
 
-- Product page: [delpageinc.com/lidlock](https://delpageinc.com/lidlock)
-- Privacy policy: [delpageinc.com/privacy/lidlock](https://delpageinc.com/privacy/lidlock)
+- Releases: [GitHub Releases](https://github.com/DelPage/lidlock/releases)
+- Privacy policy: [PRIVACY.md](PRIVACY.md)
+- Support: [SUPPORT.md](SUPPORT.md)
 - Changelog: [CHANGELOG.md](CHANGELOG.md)
