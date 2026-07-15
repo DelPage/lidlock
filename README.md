@@ -60,7 +60,7 @@ Read the hosted privacy policy: [delpageinc.com/privacy/lidlock](https://delpage
 
 Use [GitHub Issues](https://github.com/DelPage/lidlock/issues) for bug reports and compatibility notes. Please include your macOS version, Mac model, LidLock version, and what you expected to happen.
 
-Optional support is available at [delpageinc.com/donate](https://delpageinc.com/donate). LidLock works the same whether or not you donate.
+Optional support is available through the [LidLock donation page](https://donate.stripe.com/5kQbIT8rie7qaITcukasg02). LidLock works the same whether or not you donate.
 
 ## Closed Source Notice
 

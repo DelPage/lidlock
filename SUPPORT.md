@@ -19,6 +19,6 @@ For each report, include:
 
 Optional support for continued maintenance is available at:
 
-https://delpageinc.com/donate
+https://donate.stripe.com/5kQbIT8rie7qaITcukasg02
 
 LidLock works the same whether or not you donate.
