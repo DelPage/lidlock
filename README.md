@@ -17,7 +17,11 @@ LidLock is free software published by DelPage Technologies.
 </p>
 
 <p align="center">
-  <img src="screenshots/lidlock-preview.gif" width="520" alt="LidLock preview showing normal sleep and active keep-awake states">
+  <img src="screenshots/lidlock-main.png" width="430" alt="LidLock preview showing four power modes and the Walk Away action">
+</p>
+
+<p align="center">
+  <em>Preview of the next signed LidLock update, currently being tested.</em>
 </p>
 
 ## Free Download
@@ -30,22 +34,25 @@ LidLock requires **macOS 13 Ventura or newer**. The distributed app is signed wi
 
 ## What It Does
 
-- **Survive Lid Close** keeps your MacBook running when the lid is closed.
+- **Normal Sleep** returns the Mac and display to their usual sleep settings.
+- **Lid Closed** keeps your MacBook running with the lid shut while screens turn off.
+- **Stay Awake** keeps work running while allowing the display to turn off.
+- **Keep Screen On** keeps both the Mac and its display awake.
+- **Walk Away** turns the display off immediately, keeps work running, and restores the selected mode when the display wakes.
 - **Password-free lid control** can install a signed helper from Settings so approved users do not have to enter their password every time.
-- **Keep System Awake** blocks idle system sleep while LidLock runs.
-- **Keep Display Awake** prevents the display from sleeping.
-- **Walk Away** keeps work running while turning the display off.
-- **Restore Normal Sleep** releases LidLock's protections and returns macOS to normal behavior.
 - Closing the window keeps LidLock available in the menu bar; reopen it from
   **Open LidLock** or quit it explicitly from the same menu.
 
 LidLock always shows the real current system state, so you can see what is keeping the Mac awake and turn it off quickly.
 
-## Screenshots
+## Next Update Preview
 
-| Normal sleep | Active keep-awake |
+These screenshots show the redesigned mode interface now in testing. The
+download above remains version 1.1.3 until the next signed release is published.
+
+| Four clear modes | First-run guide |
 |---|---|
-| ![LidLock normal sleep screen](screenshots/lidlock-main.png) | ![LidLock active keep-awake screen](screenshots/lidlock-active.png) |
+| ![LidLock four-mode screen](screenshots/lidlock-main.png) | ![LidLock first-run guide](screenshots/lidlock-onboarding.png) |
 
 ## Privacy
 
