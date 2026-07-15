@@ -32,6 +32,14 @@ LidLock is free software published by DelPage Technologies.
 
 LidLock requires **macOS 13 Ventura or newer**. The distributed app is signed with Apple Developer ID and notarized by Apple.
 
+## Getting Started
+
+The next signed update guides every new user through the four modes, Walk Away,
+menu bar behavior, safety, and permissions before they begin. The guide can be
+reopened anytime from **Settings**, then **Getting Started**.
+
+[Read the complete installation and permissions guide](GETTING_STARTED.md).
+
 ## What It Does
 
 - **Normal Sleep** returns the Mac and display to their usual sleep settings.
@@ -44,6 +52,20 @@ LidLock requires **macOS 13 Ventura or newer**. The distributed app is signed wi
   **Open LidLock** or quit it explicitly from the same menu.
 
 LidLock always shows the real current system state, so you can see what is keeping the Mac awake and turn it off quickly.
+
+## Permissions at a Glance
+
+| Feature | Approval | Why |
+|---|---|---|
+| Normal Sleep, Stay Awake, Keep Screen On, and Walk Away | None | These features do not need special access. |
+| Lid Closed | Administrator approval | macOS protects the system wide lid sleep setting that this mode changes. |
+| Password Free Lid Control | Optional helper approval | The signed helper avoids repeated password prompts and can change only the lid sleep setting. |
+| Launch at Login | Optional Login Items approval | macOS lets you choose which apps may open when you sign in. |
+
+LidLock does not request access to files, screen contents, camera, microphone,
+location, contacts, or Accessibility controls. Read
+[Getting Started](GETTING_STARTED.md#permissions-and-approvals) for the full
+explanation.
 
 ## Next Update Preview
 
@@ -84,6 +106,7 @@ for the public-repository boundary.
 ## Links
 
 - Releases: [GitHub Releases](https://github.com/DelPage/lidlock/releases)
+- Getting started: [GETTING_STARTED.md](GETTING_STARTED.md)
 - Privacy policy: [PRIVACY.md](PRIVACY.md)
 - Support: [SUPPORT.md](SUPPORT.md)
 - Changelog: [CHANGELOG.md](CHANGELOG.md)
