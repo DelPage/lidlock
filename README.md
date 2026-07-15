@@ -62,9 +62,9 @@ Read the [LidLock privacy policy](PRIVACY.md).
 
 Use [GitHub Issues](https://github.com/DelPage/lidlock/issues) for bug reports and compatibility notes. Please include your macOS version, Mac model, LidLock version, and what you expected to happen.
 
-If you would like to support continued maintenance, you can make an optional
-[donation through Stripe](https://donate.stripe.com/aFa00b4b27J2cR18e4asg03).
-LidLock works the same whether or not you donate.
+If you would like to support continued maintenance, you can
+[choose a donation amount](SUPPORT.md#support-lidlock). LidLock works the same
+whether or not you donate.
 
 ## Closed Source Notice
 
