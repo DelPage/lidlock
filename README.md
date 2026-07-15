@@ -5,6 +5,7 @@ Keep your MacBook running with the lid closed.
 [![macOS 13+](https://img.shields.io/badge/macOS-13%2B-111111?labelColor=0f172a)](https://support.apple.com/macos)
 [![Signed and notarized](https://img.shields.io/badge/Developer%20ID-signed%20%2B%20notarized-22c55e?labelColor=0f172a)](https://developer.apple.com/developer-id/)
 [![Download](https://img.shields.io/badge/Download-LidLock.dmg-2563eb?labelColor=0f172a)](https://github.com/DelPage/lidlock/releases/latest/download/LidLock.dmg)
+[![Support LidLock](https://img.shields.io/badge/Support-LidLock-2FBC91?labelColor=0f172a)](SUPPORT.md)
 
 LidLock is a signed and notarized macOS app for local servers, downloads,
 automations, and long builds. It gives you clear controls for the Mac power
@@ -87,13 +88,15 @@ LidLock is private by default:
 
 Read the [LidLock privacy policy](PRIVACY.md).
 
-## Support and Bug Reports
+## Support LidLock
+
+Donations are optional, and LidLock works the same for everyone. The dedicated
+[Support LidLock page](SUPPORT.md) opens directly to $5, $10, $25, $100, and
+Custom Amount choices.
+
+## Bug Reports
 
 Use [GitHub Issues](https://github.com/DelPage/lidlock/issues) for bug reports and compatibility notes. Please include your macOS version, Mac model, LidLock version, and what you expected to happen.
-
-If you would like to support continued maintenance, you can
-[choose a donation amount](SUPPORT.md#support-lidlock). LidLock works the same
-whether or not you donate.
 
 ## Closed Source Notice
 
