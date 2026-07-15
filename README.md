@@ -7,7 +7,7 @@ Keep your Mac working, even with the lid closed.
 [![Download](https://img.shields.io/badge/Download-LidLock.dmg-2563eb?labelColor=0f172a)](https://github.com/DelPage/lidlock/releases/latest/download/LidLock.dmg)
 [![Support LidLock](https://img.shields.io/badge/Support-LidLock-2FBC91?labelColor=0f172a)](SUPPORT.md)
 
-LidLock keeps local servers, downloads, automations, and long builds running
+LidLock keeps Claude Code, Codex, local servers, downloads, automations, and long builds running
 when your Mac would normally sleep. No Terminal commands required.
 
 LidLock is free software published by DelPage Technologies.
