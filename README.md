@@ -1,6 +1,6 @@
 # LidLock
 
-Keep your MacBook running with the lid closed.
+Keep your Mac working, even with the lid closed.
 
 [![macOS 13+](https://img.shields.io/badge/macOS-13%2B-111111?labelColor=0f172a)](https://support.apple.com/macos)
 [![Signed and notarized](https://img.shields.io/badge/Developer%20ID-signed%20%2B%20notarized-22c55e?labelColor=0f172a)](https://developer.apple.com/developer-id/)
