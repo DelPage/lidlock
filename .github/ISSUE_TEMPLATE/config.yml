@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: LidLock privacy policy
+    url: https://delpageinc.com/privacy/lidlock
+    about: Read how LidLock handles data.
+  - name: Optional support
+    url: https://delpageinc.com/donate
+    about: Voluntary support for LidLock maintenance.
