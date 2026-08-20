@@ -20,10 +20,14 @@ LidLock keeps your activity private. **It collects nothing.**
 LidLock changes local macOS power settings. Normal Sleep, Stay Awake, Keep
 Screen On, and Walk Away do not require special access.
 
-Keep Running with Lid Closed requires administrator approval because it changes
-a system wide lid sleep setting. Before macOS requests approval, LidLock explains
-what will change and why. This approval does not give LidLock access to personal
-information or other apps.
+Stay Awake with Lid Closed requires administrator approval because it changes a
+system-wide lid-close sleep setting. LidLock reads that setting back before it
+shows **Active**, then holds a stronger system sleep assertion while the mode is
+active. In version 1.2.1, the mode no longer issues a display sleep command when
+the lid closes. This removes LidLock's direct Lock Screen trigger. macOS Lock
+Screen settings still apply. Before macOS requests approval,
+LidLock explains what will change and why. This approval does not give LidLock
+access to personal information or other apps.
 
 The optional password-free lid control helper changes only the lid sleep setting
 and accepts requests only from the signed LidLock app. Turn it off in LidLock

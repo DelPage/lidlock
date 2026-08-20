@@ -2,6 +2,20 @@
 
 This changelog lists every notable public LidLock release.
 
+## 1.2.1 - 2026-08-20
+
+- Renamed the lid-closed mode to **Stay Awake with Lid Closed**.
+- The mode no longer issues a display sleep command when the lid closes. This
+  removes LidLock's direct Lock Screen trigger. macOS Lock Screen settings still
+  apply.
+- LidLock reads the lid-close sleep setting back before showing **Active** and
+  holds a stronger system sleep assertion while the mode is active.
+
+Artifact:
+
+- `LidLock.dmg`
+- SHA-256: `3c760d3c33c738e73f24442422a9aed4bd8201aefdd6800afbf26bc24f642bc2`
+
 ## 1.2.0 - 2026-08-20
 
 - Replaced separate power switches with four clear sleep modes.
