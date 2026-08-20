@@ -8,7 +8,7 @@ Keep your Mac working, even with the lid closed.
 [![Support LidLock](https://img.shields.io/badge/Support-LidLock-2FBC91?labelColor=0f172a)](SUPPORT.md)
 
 LidLock keeps Claude Code, Codex, local servers, downloads, automations, and long builds running
-when your Mac would normally sleep. No Terminal commands required.
+when your Mac would otherwise sleep. No Terminal commands required.
 
 LidLock is free software published by DelPage Technologies.
 
@@ -17,36 +17,33 @@ LidLock is free software published by DelPage Technologies.
 </p>
 
 <p align="center">
-  <img src="screenshots/lidlock-main.png" width="430" alt="LidLock preview showing four power modes and the Walk Away action">
-</p>
-
-<p align="center">
-  <em>Preview of the next signed LidLock update, currently being tested.</em>
+  <img src="screenshots/lidlock-main.png" width="430" alt="LidLock showing four power modes and the Walk Away action">
 </p>
 
 ## Free Download
 
 - [Download LidLock.dmg](https://github.com/DelPage/lidlock/releases/latest/download/LidLock.dmg)
-- Current version: **1.1.3**
-- SHA-256: `fe735f2a9cebdbd5807163d4099c75df6141d70ca36aa91265562caf1d78e8af`
+- Current version: **1.2.0**
+- SHA-256: `56fcf464a2937557661f1b2c49d8f8d1ec465ac9dee36a9415e239a7c37e8a95`
 
-LidLock requires **macOS 13 Ventura or newer**. The distributed app is signed with Apple Developer ID and notarized by Apple.
+LidLock requires **macOS 13 Ventura or newer**. Apple signs the distributed app
+with Developer ID and notarizes it.
 
 ## Getting Started
 
-The next signed update includes a short first-run guide to the sleep controls,
-Walk Away, the menu bar, and administrator approval. You can reopen it anytime
-from **Settings**, then **Getting Started**.
+Version 1.2.0 includes a short first launch guide to the sleep controls, Walk
+Away, the menu bar, and administrator approval. You can reopen it anytime from
+**Settings**, then **Getting Started**.
 
-[Read the complete installation and permissions guide](GETTING_STARTED.md).
+[Read the complete guide to install LidLock and review its permissions](GETTING_STARTED.md).
 
 ## What It Does
 
 - **Normal Sleep** uses your Mac's normal sleep settings.
-- **Lid Closed** keeps your MacBook working with the lid shut while displays turn off.
+- **Keep Running with Lid Closed** keeps your Mac and apps running after you close the lid. Displays turn off.
 - **Stay Awake** keeps your work running while the display can turn off.
-- **Keep Screen On** keeps the Mac and display awake.
-- **Walk Away** turns the display off immediately without stopping your work.
+- **Keep Screen On** keeps the Mac and display awake while the lid is open.
+- **Walk Away** turns the display off without stopping your work.
 - Closing the window keeps LidLock available in the menu bar; reopen it from
   **Open LidLock** or quit it explicitly from the same menu.
 
@@ -55,7 +52,7 @@ from **Settings**, then **Getting Started**.
 | Feature | Approval | Why |
 |---|---|---|
 | Normal Sleep, Stay Awake, Keep Screen On, and Walk Away | None | They work as soon as LidLock opens. |
-| Lid Closed | Administrator password | macOS protects changes to how the Mac sleeps with its lid shut. |
+| Keep Running with Lid Closed | Administrator password | macOS protects changes to how the Mac sleeps with its lid shut. |
 | Password-free lid control | Optional helper approval | A signed helper can change only the lid sleep setting. |
 | Open at login | Optional Login Items approval | macOS lets you choose which apps open when you sign in. |
 
@@ -64,14 +61,11 @@ location, contacts, or Accessibility controls. Read
 [Getting Started](GETTING_STARTED.md#permissions-and-approvals) for the full
 explanation.
 
-## Next Update Preview
+## Interface
 
-These screenshots are from the next signed update. The download above remains
-version 1.1.3 until that update is published.
-
-| Sleep controls | First-run guide |
+| Sleep controls | First launch guide |
 |---|---|
-| ![LidLock four-mode screen](screenshots/lidlock-main.png) | ![LidLock first-run guide](screenshots/lidlock-onboarding.png) |
+| ![LidLock four mode screen](screenshots/lidlock-main.png) | ![LidLock first launch guide](screenshots/lidlock-onboarding.png) |
 
 ## Privacy
 
@@ -80,7 +74,7 @@ LidLock is private by default:
 - No accounts.
 - No analytics.
 - No telemetry.
-- No automatic network access during normal operation.
+- No automatic network access while you use LidLock.
 
 Read the [LidLock privacy policy](PRIVACY.md).
 
@@ -96,11 +90,12 @@ Use [GitHub Issues](https://github.com/DelPage/lidlock/issues) for bug reports a
 
 ## Closed Source Notice
 
-This public repository is for distribution, screenshots, releases, and issue tracking. The LidLock application source code is not published here.
+This public repository contains releases, screenshots, and issue tracking. The
+private source repository remains separate.
 
-LidLock is proprietary software from DelPage Technologies. See [EULA.md](EULA.md)
-for the license terms that apply to the compiled app and [CONTRIBUTING.md](CONTRIBUTING.md)
-for the public-repository boundary.
+DelPage Technologies publishes LidLock as proprietary software. Read the
+[EULA](EULA.md) for license terms and [CONTRIBUTING](CONTRIBUTING.md) for the
+public repository boundary.
 
 ## Links
 
