@@ -12,7 +12,7 @@ body:
     id: lidlock-version
     attributes:
       label: LidLock version
-      placeholder: "1.2.0"
+      placeholder: "1.2.1"
     validations:
       required: true
   - type: input
@@ -35,7 +35,7 @@ body:
       label: Area
       options:
         - Normal Sleep
-        - Keep Running with Lid Closed
+        - Stay Awake with Lid Closed
         - Stay Awake
         - Keep Screen On
         - Walk Away

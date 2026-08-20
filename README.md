@@ -7,8 +7,8 @@ Keep your Mac working, even with the lid closed.
 [![Download](https://img.shields.io/badge/Download-LidLock.dmg-2563eb?labelColor=0f172a)](https://github.com/DelPage/lidlock/releases/latest/download/LidLock.dmg)
 [![Support LidLock](https://img.shields.io/badge/Support-LidLock-2FBC91?labelColor=0f172a)](SUPPORT.md)
 
-LidLock keeps Claude Code, Codex, local servers, downloads, automations, and long builds running
-when your Mac would otherwise sleep. No Terminal commands required.
+LidLock helps keep your Mac awake for local servers, downloads, automations, and long builds.
+What continues can depend on the app and macOS behavior. No Terminal commands required.
 
 LidLock is free software published by DelPage Technologies.
 
@@ -23,15 +23,15 @@ LidLock is free software published by DelPage Technologies.
 ## Free Download
 
 - [Download LidLock.dmg](https://github.com/DelPage/lidlock/releases/latest/download/LidLock.dmg)
-- Current version: **1.2.0**
-- SHA-256: `56fcf464a2937557661f1b2c49d8f8d1ec465ac9dee36a9415e239a7c37e8a95`
+- Current version: **1.2.1**
+- SHA-256: `3c760d3c33c738e73f24442422a9aed4bd8201aefdd6800afbf26bc24f642bc2`
 
 LidLock requires **macOS 13 Ventura or newer**. Apple signs the distributed app
 with Developer ID and notarizes it.
 
 ## Getting Started
 
-Version 1.2.0 includes a short first launch guide to the sleep controls, Walk
+Version 1.2.1 includes a short first launch guide to the sleep controls, Walk
 Away, the menu bar, and administrator approval. You can reopen it anytime from
 **Settings**, then **Getting Started**.
 
@@ -40,19 +40,24 @@ Away, the menu bar, and administrator approval. You can reopen it anytime from
 ## What It Does
 
 - **Normal Sleep** uses your Mac's normal sleep settings.
-- **Keep Running with Lid Closed** keeps your Mac and apps running after you close the lid. Displays turn off.
+- **Stay Awake with Lid Closed** keeps the Mac awake after you close the lid. Your Lock Screen settings still apply.
 - **Stay Awake** keeps your work running while the display can turn off.
 - **Keep Screen On** keeps the Mac and display awake while the lid is open.
 - **Walk Away** turns the display off without stopping your work.
 - Closing the window keeps LidLock available in the menu bar; reopen it from
   **Open LidLock** or quit it explicitly from the same menu.
+- In version 1.2.1, the lid-closed mode no longer issues a display sleep command
+  when the lid closes. This removes LidLock's direct Lock Screen trigger. LidLock
+  reads the lid-close setting back before showing **Active**, then holds a
+  stronger system sleep assertion while active. macOS Lock Screen settings still
+  apply.
 
 ## Permissions at a Glance
 
 | Feature | Approval | Why |
 |---|---|---|
 | Normal Sleep, Stay Awake, Keep Screen On, and Walk Away | None | They work as soon as LidLock opens. |
-| Keep Running with Lid Closed | Administrator password | macOS protects changes to how the Mac sleeps with its lid shut. |
+| Stay Awake with Lid Closed | Administrator password | macOS protects changes to how the Mac sleeps with its lid shut. |
 | Password-free lid control | Optional helper approval | A signed helper can change only the lid sleep setting. |
 | Open at login | Optional Login Items approval | macOS lets you choose which apps open when you sign in. |
 
