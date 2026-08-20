@@ -23,17 +23,18 @@ LidLock is free software published by DelPage Technologies.
 ## Free Download
 
 - [Download LidLock.dmg](https://github.com/DelPage/lidlock/releases/latest/download/LidLock.dmg)
-- Current version: **1.2.1**
-- SHA-256: `3c760d3c33c738e73f24442422a9aed4bd8201aefdd6800afbf26bc24f642bc2`
+- Current version: **1.2.2**
+- SHA-256: `7972ce8f12760ec576b0d72eff97d0731057e9de36c317dca45cde12a86a3d1a`
 
 LidLock requires **macOS 13 Ventura or newer**. Apple signs the distributed app
 with Developer ID and notarizes it.
 
 ## Getting Started
 
-Version 1.2.1 includes a short first launch guide to the sleep controls, Walk
-Away, the menu bar, and administrator approval. You can reopen it anytime from
-**Settings**, then **Getting Started**.
+Version 1.2.2 explains which actions work immediately and which ones need
+administrator approval or approval in Login Items. LidLock also shows a prompt
+before a protected action and tells you exactly what to approve. You can reopen
+the first launch guide anytime from **Settings**, then **Getting Started**.
 
 [Read the complete guide to install LidLock and review its permissions](GETTING_STARTED.md).
 
@@ -51,15 +52,22 @@ Away, the menu bar, and administrator approval. You can reopen it anytime from
   reads the lid-close setting back before showing **Active**, then holds a
   stronger system sleep assertion while active. macOS Lock Screen settings still
   apply.
+- In version 1.2.2, LidLock explains any extra approval before it continues.
+  Prompts cover administrator approval, Login Items approval, restoring normal
+  sleep, and quitting while the lid setting is still on.
 
 ## Permissions at a Glance
 
 | Feature | Approval | Why |
 |---|---|---|
 | Normal Sleep, Stay Awake, Keep Screen On, and Walk Away | None | They work as soon as LidLock opens. |
-| Stay Awake with Lid Closed | Administrator password | macOS protects changes to how the Mac sleeps with its lid shut. |
-| Password-free lid control | Optional helper approval | A signed helper can change only the lid sleep setting. |
+| Stay Awake with Lid Closed | Administrator approval when saved approval is off | macOS protects changes to how the Mac sleeps with its lid shut. |
+| Allow lid changes without a password | Optional Login Items approval | A signed helper can change only the lid sleep setting. |
 | Open at login | Optional Login Items approval | macOS lets you choose which apps open when you sign in. |
+
+When an extra step is needed, LidLock shows a prompt before it continues. If
+approval must be completed in System Settings, LidLock can open Login Items for
+you and shows that approval is still pending.
 
 LidLock does not request access to files, screen contents, camera, microphone,
 location, contacts, or Accessibility controls. Read

@@ -12,7 +12,7 @@ body:
     id: lidlock-version
     attributes:
       label: LidLock version
-      placeholder: "1.2.1"
+      placeholder: "1.2.2"
     validations:
       required: true
   - type: input
@@ -41,7 +41,7 @@ body:
         - Walk Away
         - Open at login
         - Menu bar
-        - Password-free lid control
+        - Allow lid changes without a password
         - Install, download, signing, or Gatekeeper
         - Other
     validations:
