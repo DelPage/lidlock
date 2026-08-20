@@ -1,8 +1,9 @@
 # Security Policy
 
-Please do not post secrets, private device information, payment details, crash logs with personal paths, or sensitive business information in public issues.
+Do not include secrets, payment details, personal file paths, or other sensitive
+information in public issues.
 
-For security-sensitive reports, contact DelPage Technologies at
+For security reports, contact DelPage Technologies at
 [hello@delpageinc.com](mailto:hello@delpageinc.com).
 
 Include:
@@ -11,6 +12,8 @@ Include:
 - macOS version.
 - Mac model and processor family.
 - Steps that reproduce the issue.
-- Whether the issue involves `pmset`, authorization prompts, app signing, or Gatekeeper.
+- A short description of the security impact, including any relevant macOS
+  warnings or approval prompts.
 
-The public GitHub repository is for distribution and issue tracking. LidLock source code is not published here.
+This public repository is for downloads, documentation, and issue tracking.
+LidLock source code is not published here.

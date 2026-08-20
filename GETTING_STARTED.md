@@ -13,19 +13,16 @@ The current public download is version 1.2.2.
 3. Open LidLock from Applications.
 4. macOS checks that DelPage Technologies signed the app and Apple notarized it.
 
-Move LidLock to Applications when you want to allow lid changes without a
-password. The rest of the app can run without that approval.
+Install LidLock in Applications if you want to allow lid changes without a
+password. The other controls do not need that approval.
 
 ## First Launch
 
-On first launch, LidLock explains each sleep option and Walk Away. It also shows
-where to find LidLock after you close its window. The permissions page explains
-which controls work immediately, when macOS may ask for administrator approval,
-and when approval must be completed in Login Items.
+The setup guide explains the sleep options, Walk Away, menu bar access, and
+approvals. LidLock also explains any required approval before it changes a
+protected setting.
 
-LidLock shows another prompt before a protected action and explains the next step.
-
-You can reopen this guide anytime from **Settings**, then **Getting Started**.
+Reopen the guide from **Settings**, then **Getting Started**.
 
 ## Sleep Options
 
@@ -36,65 +33,55 @@ You can reopen this guide anytime from **Settings**, then **Getting Started**.
 | **Stay Awake** | Keeps your work running while the display can turn off. |
 | **Keep Screen On** | Keeps the Mac and display awake while the lid is open. |
 
-**Walk Away** turns the display off without stopping your work. Your
-previous sleep setting remains selected when the display wakes.
+**Walk Away** turns the display off without stopping your work. Your previous
+sleep setting remains selected when the display wakes.
 
-Closing the LidLock window does not quit the app. LidLock stays available in the
-macOS menu bar until you choose **Quit LidLock**.
+Closing the LidLock window does not quit the app. LidLock stays in the menu bar
+until you choose **Quit LidLock**.
 
 ### Stay Awake with Lid Closed
 
-When you choose **Stay Awake with Lid Closed**, LidLock reads the lid-close
-sleep setting back before it shows **Active**. While the mode is active, LidLock
-holds a stronger system sleep assertion to help keep the Mac awake.
-
-Since version 1.2.1, the mode no longer issues a display sleep command when the
-lid closes. This removes LidLock's direct Lock Screen trigger. Your macOS Lock
-Screen settings still apply.
+Use this mode when work needs to continue after you close the lid. Your macOS
+Lock Screen settings still apply.
 
 ## Permissions and Approvals
 
 | Feature | What macOS may request | Why |
 |---|---|---|
-| Normal Sleep, Stay Awake, Keep Screen On, and Walk Away | Nothing | They work as soon as LidLock opens. |
-| Stay Awake with Lid Closed | Administrator approval when saved approval is off | macOS protects changes to how the Mac sleeps with its lid shut. |
-| Allow lid changes without a password | Optional Login Items approval | The signed helper can change only the lid sleep setting. |
-| Open at login | Optional approval under Login Items | macOS lets you decide which apps open when you sign in. |
+| Normal Sleep, Stay Awake, Keep Screen On, and Walk Away | Nothing | Available as soon as LidLock opens. |
+| Stay Awake with Lid Closed | Administrator password unless **Allow lid changes without a password** is enabled | macOS protects changes to lid sleep behavior. |
+| Allow lid changes without a password | Approval in Login Items | Avoids password prompts for lid changes. |
+| Open at login | Approval in Login Items | Lets LidLock open when you sign in. |
 
-LidLock explains the extra step before it continues. When Login Items approval
-is required, the prompt can open the correct System Settings page. Settings also
-shows **Waiting for approval** until macOS reports that the request is enabled.
+If macOS needs approval, LidLock explains why and can open Login Items. Settings
+shows **Waiting for approval** until the request is enabled.
 
 LidLock does not request access to your files, screen contents, camera,
 microphone, location, contacts, or Accessibility controls.
 
-### Why Stay Awake with Lid Closed Needs Administrator Approval
+### Administrator Approval
 
-Stay Awake with Lid Closed changes how the Mac sleeps when you close its lid.
-macOS asks for an administrator password when that setting changes.
+Stay Awake with Lid Closed changes how the Mac sleeps after you close the lid,
+so macOS may ask for an administrator password. LidLock explains the change and
+lets you continue or cancel before the password prompt appears.
 
-Before the password prompt appears, LidLock explains what will change and lets
-you continue or cancel. The same guidance appears when restoring normal sleep if
-administrator approval is needed. These approvals do not give
-LidLock access to your files, screen, or other apps.
+The same approval may be needed when you return to Normal Sleep. It does not
+give LidLock access to your files, screen, or other apps.
 
-### Optional Approval for Lid Changes
+### Allow Lid Changes Without a Password
 
-Without the helper, macOS may ask for an administrator password when you turn
-Stay Awake with Lid Closed on or off. If you prefer fewer prompts, open
-**Settings** and enable **Allow lid changes without a password**.
+Turn on **Allow lid changes without a password** in Settings if you want fewer
+password prompts. macOS may ask you to approve LidLock under **System Settings**,
+**General**, **Login Items**. LidLock can open that page for you.
 
-The helper is optional. DelPage Technologies signs it, and it changes only the
-lid sleep setting. macOS may ask you to approve LidLock under **System Settings**,
-**General**, **Login Items**. LidLock can open that page for you. Turn the same
-setting off to remove the approval. All other LidLock features work without it.
+This option changes only lid sleep behavior. Turn it off to remove the approval.
+All other LidLock features work without it.
 
-### Optional Open at Login
+### Open at Login
 
-Open at login is off until you enable it. macOS may ask you to approve LidLock
-under **System Settings**, **General**, **Login Items**. LidLock shows an
-**Open Login Items** button when that step is needed. This approval only lets
-LidLock open after you sign in.
+Open at login is off until you enable it. If macOS needs approval, LidLock shows
+an **Open Login Items** button. This approval only lets LidLock open after you
+sign in.
 
 ## Replace Older Copies
 
@@ -112,8 +99,8 @@ These steps prevent an older copy from opening at login or appearing in search.
 
 ## Return to Normal
 
-Choose **Normal Sleep** to return to the usual macOS sleep behavior. LidLock also
-restores normal sleep on a clean quit by default.
+Choose **Normal Sleep** to restore the usual macOS sleep behavior. LidLock also
+restores normal sleep when it quits by default.
 
 To remove LidLock, choose Normal Sleep first, quit the app, and move LidLock from
 Applications to the Trash.

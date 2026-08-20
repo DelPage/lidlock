@@ -1,17 +1,17 @@
 # Changelog
 
-This changelog lists every notable public LidLock release.
+This changelog records current and retired LidLock releases. Downloads are
+available only for versions shown in GitHub Releases.
 
 ## 1.2.2 - 2026-08-20
 
-- Added clear guidance before starting or ending Stay Awake with Lid Closed
-  when administrator approval may be required.
-- Added prompts that can open Login Items when the optional lid approval or
-  Open at login needs approval in System Settings.
-- Added safer quit guidance when normal sleep cannot be restored or the lid
-  setting would remain on after LidLock quits.
-- Expanded the first launch guide and Settings permissions section so people
-  can see which actions need approval before using them.
+- Added clear explanations before macOS asks for an administrator password.
+- Added shortcuts to Login Items when macOS needs approval.
+- Settings now shows pending approvals.
+- If normal sleep cannot be restored, LidLock stays open and explains the
+  available choices before quitting.
+- Updated first launch and Settings guidance to show which controls need
+  approval.
 
 Artifact:
 
@@ -20,12 +20,10 @@ Artifact:
 
 ## 1.2.1 - 2026-08-20
 
-- Renamed the lid-closed mode to **Stay Awake with Lid Closed**.
-- The mode no longer issues a display sleep command when the lid closes. This
-  removes LidLock's direct Lock Screen trigger. macOS Lock Screen settings still
-  apply.
-- LidLock reads the lid-close sleep setting back before showing **Active** and
-  holds a stronger system sleep assertion while the mode is active.
+- Renamed the mode to **Stay Awake with Lid Closed**.
+- The mode no longer forces the Lock Screen. Your macOS Lock Screen settings
+  continue to apply.
+- Improved reliability when starting and maintaining the mode.
 
 Artifact:
 
@@ -34,14 +32,16 @@ Artifact:
 
 ## 1.2.0 - 2026-08-20
 
-- Replaced separate power switches with four clear sleep modes.
-- Added **Keep Running with Lid Closed** so the Mac and apps continue after the
-  lid closes while all displays turn off.
-- Added a first launch guide for modes, Walk Away, the menu bar, and approvals.
-- Made Walk Away a separate action that turns off the display without stopping work.
+- Replaced separate power switches with four sleep modes.
+- Added **Keep Running with Lid Closed** so work can continue after the lid
+  closes while the displays are off. This mode was renamed **Stay Awake with
+  Lid Closed** in version 1.2.1.
+- Added a first launch guide for the modes, Walk Away, menu bar access, and
+  approvals.
+- Added Walk Away as a separate action that turns off the display without
+  stopping work.
 - Added the Support LidLock page and donation choices.
-- Signed and notarized both the app and disk image. Release checks require
-  Gatekeeper to accept both before we publish a release.
+- Signed and notarized both the app and disk image.
 
 Artifact:
 
@@ -50,10 +50,10 @@ Artifact:
 
 ## 1.1.3 - 2026-07-15
 
-- Closing the main window now leaves LidLock running in the macOS menu bar.
-- Hovering over the menu-bar icon shows the current sleep setting.
+- Closing the main window now leaves LidLock in the macOS menu bar.
+- Hovering over the menu bar icon shows the current sleep setting.
 - **Open LidLock** brings the window back.
-- **Quit LidLock** exits the app and runs its normal sleep cleanup.
+- **Quit LidLock** exits the app and restores normal sleep.
 
 Artifact:
 
@@ -62,12 +62,9 @@ Artifact:
 
 ## 1.1.1 - 2026-06-19
 
-Helper hotfix release.
+Fixed **Allow lid changes without a password** after installation.
 
-- Fixed the password-free helper rejecting LidLock after install because the
-  helper did not request its signing Team ID from Security.framework.
-- Added a release check that fails if the helper cannot read the expected Team
-  ID before notarization.
+- Corrected an installation issue that prevented the option from working.
 
 Artifact:
 
@@ -76,17 +73,13 @@ Artifact:
 
 ## 1.1.0 - 2026-06-19 (superseded)
 
-Password-free lid control release.
+This build was superseded by 1.1.1 after an installation problem was found. The
+public release asset was removed. Use version 1.1.1 or newer.
 
-This build was superseded by 1.1.1 after a helper validation bug was found. The
-public release asset was removed; use 1.1.1 or newer.
-
-- Added an optional signed helper in Settings so lid-close behavior can change
-  without asking for the administrator password every time.
-- Added a warning dialog before installing the helper.
-- Kept the normal macOS admin prompt as the fallback when the helper is off.
-- Added release checks that fail if the helper or launchd plist is missing from
-  the signed app.
+- Added the optional setting that allows lid changes without a password.
+- Added a confirmation before requesting approval.
+- Kept the normal macOS administrator prompt when **Allow lid changes without a
+  password** is off.
 
 Artifact:
 
@@ -95,16 +88,12 @@ Artifact:
 
 ## 1.0.1 - 2026-06-19
 
-Maintenance release.
-
-- Fixed a battery safety path that could ask for administrator approval twice
-  after enabling lid-close behavior while unplugged.
-- Kept an intentional lid-close choice from being reversed during the same
-  battery session.
-- Improved menu/window state consistency while privileged operations are in
-  progress.
-- Fixed Open at login cleanup when macOS leaves the login item in a pending
-  approval state.
+- Prevented duplicate password prompts when enabling lid closed mode on
+  battery.
+- Fixed cases where LidLock could reverse the selected lid setting while on
+  battery.
+- Kept the menu bar and main window in sync while settings change.
+- Fixed Open at login cleanup while macOS approval is pending.
 
 Artifact:
 
@@ -116,11 +105,12 @@ Artifact:
 Initial public release.
 
 - Added signed and notarized Developer ID distribution.
-- Added direct `.dmg` download for macOS 13+.
+- Added a direct `.dmg` download for macOS 13 or newer.
 - Added controls for working with the lid shut, keeping the Mac or display
-  awake, turning off the display immediately, and restoring normal sleep.
-- Added local-only privacy posture with no accounts, analytics, telemetry, or automatic network access during normal operation.
-- Added startup and quit safeguards for restoring normal sleep state after crashes or canceled restores.
+  awake, turning off the display, and restoring normal sleep.
+- Runs without accounts, analytics, telemetry, or automatic network access.
+- Restores normal sleep when LidLock quits and recovers the setting after an
+  unexpected exit.
 
 Artifact:
 

@@ -2,49 +2,43 @@
 
 Last updated: 2026-08-20
 
-LidLock keeps your activity private. **It collects nothing.**
+LidLock does not collect personal information.
 
 ## What LidLock Does Not Do
 
 - LidLock does not gather, store, or transmit personal information.
-- LidLock has no accounts, no sign in, no analytics, no telemetry, no advertising, and no fingerprinting.
-- LidLock does not contact any server while it runs.
+- LidLock requires no account or sign in and has no analytics, telemetry,
+  advertising, or fingerprinting.
+- LidLock does not make automatic network connections while it runs.
 
 ## What Stays On Your Mac
 
-- LidLock stores preferences such as Open at login, safety settings, and menu bar visibility locally on your Mac.
-- macOS writes diagnostic logs only to its unified logging system for troubleshooting on your device.
+- LidLock stores its preferences locally on your Mac.
+- macOS keeps diagnostic logs on your device for troubleshooting.
 
-## System Changes LidLock Makes
+## System Changes
 
 LidLock changes local macOS power settings. Normal Sleep, Stay Awake, Keep
 Screen On, and Walk Away do not require special access.
 
-Stay Awake with Lid Closed requires administrator approval because it changes a
-system-wide lid-close sleep setting. LidLock reads that setting back before it
-shows **Active**, then holds a stronger system sleep assertion while the mode is
-active. In version 1.2.1, the mode no longer issues a display sleep command when
-the lid closes. This removes LidLock's direct Lock Screen trigger. macOS Lock
-Screen settings still apply. Before macOS requests approval,
-LidLock explains what will change and why. This approval does not give LidLock
-access to personal information or other apps.
+Stay Awake with Lid Closed changes a protected sleep setting, so macOS may ask
+for an administrator password. This approval is used only to change lid sleep
+behavior. It does not give LidLock access to personal information or other apps.
+Your macOS Lock Screen settings continue to apply.
 
-The optional password-free lid control helper changes only the lid sleep setting
-and accepts requests only from the signed LidLock app. Turn it off in LidLock
-Settings to remove it. Open at login is also optional and may require approval
-under macOS Login Items.
+Allow lid changes without a password and Open at login are optional. macOS may
+ask you to approve them in Login Items. Turn either option off in LidLock
+Settings to remove it.
 
 LidLock does not request access to files, screen contents, camera, microphone,
-location, contacts, or Accessibility controls. All power settings and approvals
-stay on the Mac. LidLock never sends them anywhere.
+location, contacts, or Accessibility controls. Power settings and approvals
+stay on the Mac.
 
-## Optional Support Links
+## Optional Support Link
 
-LidLock includes a voluntary support link. Selecting it opens your browser to
-the public LidLock support page, where donation amounts continue to Stripe
-hosted checkout. Stripe processes the donation for DelPage Technologies, the
-publisher of LidLock. LidLock does not process payments, store payment
-information, or receive card details.
+Selecting **Support LidLock** opens the support page in your browser. If you
+donate, Stripe processes the payment for DelPage Technologies. LidLock does not
+receive your card details.
 
 ## Contact
 
