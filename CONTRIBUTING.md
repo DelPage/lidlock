@@ -5,19 +5,19 @@ compiled releases, customer documentation, screenshots, checksums, policies,
 and issue templates. The application source is maintained privately by DelPage
 Technologies and is not part of this repository.
 
-## How to help
+## How to Help
 
-- Bug reports and compatibility notes through GitHub Issues.
-- Documentation corrections and clearer customer instructions.
-- Accessibility, usability, and Mac-model compatibility feedback.
+- Report bugs and compatibility problems through GitHub Issues.
+- Suggest documentation corrections and clearer instructions.
+- Share accessibility, usability, and Mac compatibility feedback.
 
-## What stays private
+## What Stays Private
 
-- Application or privileged-helper source code.
-- Signing certificates, provisioning files, credentials, or private keys.
-- Internal build scripts, operational notes, private logs, or development-only
+- Application source, including privileged components.
+- Signing certificates, credentials, private keys, and provisioning files.
+- Internal build material, operational notes, private logs, and development
   instructions.
-- Unverified application bundles or replacement release assets.
+- Unofficial app bundles or replacement release files.
 
-Official release assets are built by DelPage Technologies, signed with Apple
+Official releases are built by DelPage Technologies, signed with Apple
 Developer ID, notarized by Apple, and published through GitHub Releases.
