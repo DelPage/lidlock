@@ -1,6 +1,22 @@
 # Changelog
 
-All notable public releases of LidLock are tracked here.
+This changelog lists every notable public LidLock release.
+
+## 1.2.0 - 2026-08-20
+
+- Replaced separate power switches with four clear sleep modes.
+- Added **Keep Running with Lid Closed** so the Mac and apps continue after the
+  lid closes while all displays turn off.
+- Added a first launch guide for modes, Walk Away, the menu bar, and approvals.
+- Made Walk Away a separate action that turns off the display without stopping work.
+- Added the Support LidLock page and donation choices.
+- Signed and notarized both the app and disk image. Release checks require
+  Gatekeeper to accept both before we publish a release.
+
+Artifact:
+
+- `LidLock.dmg`
+- SHA-256: `56fcf464a2937557661f1b2c49d8f8d1ec465ac9dee36a9415e239a7c37e8a95`
 
 ## 1.1.3 - 2026-07-15
 
