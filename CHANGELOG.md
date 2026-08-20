@@ -2,6 +2,22 @@
 
 This changelog lists every notable public LidLock release.
 
+## 1.2.2 - 2026-08-20
+
+- Added clear guidance before starting or ending Stay Awake with Lid Closed
+  when administrator approval may be required.
+- Added prompts that can open Login Items when the optional lid approval or
+  Open at login needs approval in System Settings.
+- Added safer quit guidance when normal sleep cannot be restored or the lid
+  setting would remain on after LidLock quits.
+- Expanded the first launch guide and Settings permissions section so people
+  can see which actions need approval before using them.
+
+Artifact:
+
+- `LidLock.dmg`
+- SHA-256: `7972ce8f12760ec576b0d72eff97d0731057e9de36c317dca45cde12a86a3d1a`
+
 ## 1.2.1 - 2026-08-20
 
 - Renamed the lid-closed mode to **Stay Awake with Lid Closed**.
