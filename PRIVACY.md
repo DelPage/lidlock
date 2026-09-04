@@ -43,4 +43,4 @@ receive your card details.
 ## Contact
 
 Questions about this policy: DelPage Technologies at
-[hello@delpageinc.com](mailto:hello@delpageinc.com).
+[anthony@delpageinc.com](mailto:anthony@delpageinc.com).

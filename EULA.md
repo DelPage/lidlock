@@ -15,4 +15,4 @@ The software is provided "as is", without warranty of any kind, express or impli
 LidLock changes macOS power management settings, including settings that can keep your Mac awake with the lid closed. You are responsible for how you use it; DelPage Technologies is not liable for missed sleep, battery drain, thermal events, or any other consequence of disabling sleep.
 
 For licensing inquiries, contact DelPage Technologies at
-[hello@delpageinc.com](mailto:hello@delpageinc.com).
+[anthony@delpageinc.com](mailto:anthony@delpageinc.com).

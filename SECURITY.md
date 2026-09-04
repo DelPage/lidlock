@@ -4,7 +4,7 @@ Do not include secrets, payment details, personal file paths, or other sensitive
 information in public issues.
 
 For security reports, contact DelPage Technologies at
-[hello@delpageinc.com](mailto:hello@delpageinc.com).
+[anthony@delpageinc.com](mailto:anthony@delpageinc.com).
 
 Include:
 
