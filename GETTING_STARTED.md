@@ -4,7 +4,7 @@ LidLock is a macOS menu bar utility for controlling when your Mac and display
 sleep. It is free to use, requires no account, and does not collect personal
 information.
 
-The current public download is version 1.2.3.
+The current public download is version 1.2.4.
 
 ## Install LidLock
 
@@ -29,11 +29,11 @@ Reopen the guide from **Settings**, then **Getting Started**.
 | Mode | What happens |
 |---|---|
 | **Normal Sleep** | Uses your Mac's normal sleep settings. |
-| **Stay Awake with Lid Closed** | Keeps work running with the lid closed. The MacBook display turns off; your Lock Screen settings still apply. |
+| **Stay Awake with Lid Closed** | Keeps work running without locking. The backlight turns off when the lid closes and brightness returns when it opens. |
 | **Stay Awake (Lid Open)** | Keeps work running with the lid open. The display follows your Mac’s sleep timer. |
 | **Keep Screen On (Lid Open)** | Keeps the display on with the lid open. Closing the lid can put your Mac to sleep. |
 
-**Walk Away** turns the display off without stopping your work. Your previous
+**Walk Away** turns the display off without stopping your work. This action follows your normal Lock Screen settings. Your previous
 sleep setting remains selected when the display wakes.
 
 Closing the LidLock window does not quit the app. LidLock stays in the menu bar
@@ -41,21 +41,22 @@ until you choose **Quit LidLock**.
 
 ### Stay Awake with Lid Closed
 
-Use this mode when work needs to continue after you close the lid. Your macOS
-Lock Screen settings still apply.
+Use this mode when work needs to continue after you close the lid. It keeps
+your session unlocked without changing your Mac’s lock settings.
 
 ## Display Off Without Locking
 
-Choose **Stay Awake with Lid Closed** to keep work running with the MacBook
-display off. Keeping the Mac awake does not prevent it from locking.
+Choose **Stay Awake with Lid Closed** before closing your MacBook. Your work
+keeps running and your session stays unlocked. LidLock switches off the
+backlight while the lid is closed and restores your brightness when it opens.
 
-Open **Display Off Without Locking…** from LidLock’s main window, menu bar, or
-Settings. The guide opens macOS **Lock Screen** settings, where you can set
-**Require password after screen saver begins or display is turned off** to
-**Never**. This also stops automatic locking after display sleep outside
-LidLock. LidLock does not change this preference itself or unlock a locked Mac.
+The display session stays awake internally. Turning off the backlight saves
+power, but running tasks still use battery. Your Mac’s lock settings stay
+unchanged. You can still lock the Mac yourself, and LidLock does not unlock an
+already locked Mac.
 
-See [Apple’s Lock Screen settings guide](https://support.apple.com/guide/mac-help/change-lock-screen-settings-on-mac-mh11784/mac).
+**Display Off Without Locking…** explains this behavior in the main window,
+menu bar, and Settings. There is no password setting to change.
 
 ## Permissions and Approvals
 

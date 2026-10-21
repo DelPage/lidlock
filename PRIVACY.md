@@ -24,7 +24,11 @@ Screen On, and Walk Away do not require special access.
 Stay Awake with Lid Closed changes a protected sleep setting, so macOS may ask
 for an administrator password. This approval is used only to change lid sleep
 behavior. It does not give LidLock access to personal information or other apps.
-Your macOS Lock Screen settings continue to apply.
+This mode keeps the display session awake and turns off the built-in backlight
+when the lid closes. LidLock stores your brightness locally and restores it
+when you reopen the lid, leave the mode, or quit. After an unexpected exit, it
+retries restoration on the next launch. Your password and Lock Screen settings
+stay unchanged.
 
 Allow lid changes without a password and Open at login are optional. macOS may
 ask you to approve them in Login Items. Turn either option off in LidLock

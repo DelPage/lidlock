@@ -3,6 +3,18 @@
 This changelog records current and retired LidLock releases. Downloads are
 available only for versions shown in GitHub Releases.
 
+## 1.2.4, 2026-10-21
+
+- Fixed the existing closed-lid mode to keep the session unlocked without changing Lock Screen settings.
+- The built-in backlight turns off on lid close and returns to the previous brightness on lid open.
+- Brightness also restores on mode exit or quit, with recovery on the next launch after an unexpected exit.
+- Updated the in-app guide, documentation, and screenshots. No modes were added.
+
+Artifact:
+
+- `LidLock.dmg`
+- SHA-256: `5040ce8e3f29379db90798d70ac87855ccb0f8bdb849a7be79953bd581725937`
+
 ## 1.2.3, 2026-10-21
 
 - Mode names now state when the lid must stay open.
