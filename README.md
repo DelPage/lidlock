@@ -24,11 +24,11 @@ Published by DelPage Technologies.
 ## Free Download
 
 - [Download LidLock.dmg](https://github.com/DelPage/lidlock/releases/latest/download/LidLock.dmg)
-- Current version: **1.2.2**
-- SHA-256: `7972ce8f12760ec576b0d72eff97d0731057e9de36c317dca45cde12a86a3d1a`
+- Current version: **1.2.3**
+- SHA-256: `3b39eab9250b8778759ed48663db7372bb9607d17a45f971f92f60066015c2b8`
 
-LidLock requires **macOS 13 Ventura or newer**. Apple signs the app with
-Developer ID and notarizes it.
+LidLock requires **macOS 13 Ventura or newer**. DelPage signs the app with
+Apple Developer ID, and Apple notarizes it.
 
 ## Getting Started
 
@@ -40,12 +40,25 @@ Login Items. Reopen the setup guide from **Settings**, then **Getting Started**.
 ## What It Does
 
 - **Normal Sleep** uses your Mac's normal sleep settings.
-- **Stay Awake with Lid Closed** keeps the Mac awake after you close the lid. Your Lock Screen settings still apply.
-- **Stay Awake** keeps your work running while the display can turn off.
-- **Keep Screen On** keeps the Mac and display awake while the lid is open.
+- **Stay Awake with Lid Closed** keeps work running with the lid closed. The MacBook display turns off; your Lock Screen settings still apply.
+- **Stay Awake (Lid Open)** keeps work running with the lid open. The display follows your Mac’s sleep timer.
+- **Keep Screen On (Lid Open)** keeps the display on with the lid open. Closing the lid can put your Mac to sleep.
 - **Walk Away** turns the display off without stopping your work.
 - Closing the window leaves LidLock in the menu bar. Use **Open LidLock** to
   reopen it or **Quit LidLock** to exit.
+
+## Display Off Without Locking
+
+Choose **Stay Awake with Lid Closed** to keep work running with the MacBook
+display off. Keeping the Mac awake does not prevent it from locking.
+
+Open **Display Off Without Locking…** from LidLock’s main window, menu bar, or
+Settings. The guide opens macOS **Lock Screen** settings, where you can set
+**Require password after screen saver begins or display is turned off** to
+**Never**. This also stops automatic locking after display sleep outside
+LidLock. LidLock does not change this preference itself or unlock a locked Mac.
+
+See [Apple’s Lock Screen settings guide](https://support.apple.com/guide/mac-help/change-lock-screen-settings-on-mac-mh11784/mac).
 
 ## Permissions
 

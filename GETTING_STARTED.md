@@ -4,7 +4,7 @@ LidLock is a macOS menu bar utility for controlling when your Mac and display
 sleep. It is free to use, requires no account, and does not collect personal
 information.
 
-The current public download is version 1.2.2.
+The current public download is version 1.2.3.
 
 ## Install LidLock
 
@@ -29,9 +29,9 @@ Reopen the guide from **Settings**, then **Getting Started**.
 | Mode | What happens |
 |---|---|
 | **Normal Sleep** | Uses your Mac's normal sleep settings. |
-| **Stay Awake with Lid Closed** | Keeps the Mac awake after you close the lid. Your Lock Screen settings still apply. |
-| **Stay Awake** | Keeps your work running while the display can turn off. |
-| **Keep Screen On** | Keeps the Mac and display awake while the lid is open. |
+| **Stay Awake with Lid Closed** | Keeps work running with the lid closed. The MacBook display turns off; your Lock Screen settings still apply. |
+| **Stay Awake (Lid Open)** | Keeps work running with the lid open. The display follows your Mac’s sleep timer. |
+| **Keep Screen On (Lid Open)** | Keeps the display on with the lid open. Closing the lid can put your Mac to sleep. |
 
 **Walk Away** turns the display off without stopping your work. Your previous
 sleep setting remains selected when the display wakes.
@@ -43,6 +43,19 @@ until you choose **Quit LidLock**.
 
 Use this mode when work needs to continue after you close the lid. Your macOS
 Lock Screen settings still apply.
+
+## Display Off Without Locking
+
+Choose **Stay Awake with Lid Closed** to keep work running with the MacBook
+display off. Keeping the Mac awake does not prevent it from locking.
+
+Open **Display Off Without Locking…** from LidLock’s main window, menu bar, or
+Settings. The guide opens macOS **Lock Screen** settings, where you can set
+**Require password after screen saver begins or display is turned off** to
+**Never**. This also stops automatic locking after display sleep outside
+LidLock. LidLock does not change this preference itself or unlock a locked Mac.
+
+See [Apple’s Lock Screen settings guide](https://support.apple.com/guide/mac-help/change-lock-screen-settings-on-mac-mh11784/mac).
 
 ## Permissions and Approvals
 

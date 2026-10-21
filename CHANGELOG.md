@@ -3,6 +3,18 @@
 This changelog records current and retired LidLock releases. Downloads are
 available only for versions shown in GitHub Releases.
 
+## 1.2.3, 2026-10-21
+
+- Mode names now state when the lid must stay open.
+- The closed-lid description explains that the MacBook display turns off while work continues.
+- Added Display Off Without Locking guidance and a link to macOS Lock Screen settings in the window, menu, and Settings.
+- Mode descriptions wrap instead of being cut off.
+
+Artifact:
+
+- `LidLock.dmg`
+- SHA-256: `3b39eab9250b8778759ed48663db7372bb9607d17a45f971f92f60066015c2b8`
+
 ## 1.2.2 - 2026-08-20
 
 - Added clear explanations before macOS asks for an administrator password.
