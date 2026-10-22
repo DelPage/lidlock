@@ -4,29 +4,23 @@ title: "[Bug]: "
 labels:
   - bug
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for reporting a LidLock issue. Please avoid posting private device details, secrets, payment data, or sensitive logs.
   - type: input
     id: lidlock-version
     attributes:
       label: LidLock version
-      placeholder: "1.2.2"
     validations:
       required: true
   - type: input
     id: macos-version
     attributes:
       label: macOS version
-      placeholder: "macOS 15.5, macOS 14.7, etc."
     validations:
       required: true
   - type: input
     id: mac-model
     attributes:
       label: Mac model
-      placeholder: "MacBook Pro M3, MacBook Air M2, Mac mini M4, etc."
+      placeholder: "MacBook Air M2"
     validations:
       required: true
   - type: dropdown
@@ -34,15 +28,15 @@ body:
     attributes:
       label: Area
       options:
-        - Normal Sleep
-        - Stay Awake with Lid Closed
-        - Stay Awake
-        - Keep Screen On
-        - Walk Away
+        - Screen On, Lid Open
+        - Screen Off, Lid Open
+        - Screen On, Lid Closed
+        - Screen Off, Lid Closed
+        - Stop Keeping Awake
         - Open at login
         - Menu bar
         - Allow lid changes without a password
-        - Install, download, signing, or Gatekeeper
+        - Installation or download
         - Other
     validations:
       required: true
@@ -50,10 +44,6 @@ body:
     id: steps
     attributes:
       label: Steps to reproduce
-      placeholder: |
-        1. Open LidLock
-        2. Choose ...
-        3. Close the lid, wake the display, or quit ...
     validations:
       required: true
   - type: textarea

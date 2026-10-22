@@ -1,15 +1,12 @@
 # Changelog
 
-This changelog records current and retired LidLock releases. Downloads are
-available only for versions shown in GitHub Releases.
-
 ## 1.3.0, 2026-10-21
 
-The four modes now pair Screen On or Screen Off with Lid Open or Lid Closed. All four keep tasks running and prevent automatic locking without changing macOS lock settings.
+Screen On and Screen Off each have a Lid Open and a Lid Closed option. All four keep tasks running and prevent automatic locking without changing macOS lock settings.
 
 Screen Off, Lid Open makes the screen black immediately. Press Esc to turn it back on. Screen Off, Lid Closed makes it black when the lid closes and restores brightness when it opens.
 
-Stop Keeping Awake ends the active mode. The previous Turn Display Off action has been removed.
+Stop Keeping Awake ends the active mode. Removed Turn Display Off.
 
 Artifact:
 
@@ -32,7 +29,7 @@ Artifact:
 ## 1.2.5, 2026-10-21
 
 - Removed the extra Display Off Without Locking help link and popup.
-- Shortened the closed-lid description and approval messages.
+- Shortened the closed lid description and approval messages.
 - Removed repeated guidance from Settings and the setup guide.
 - Sleep and lock behavior are unchanged.
 
@@ -43,8 +40,8 @@ Artifact:
 
 ## 1.2.4, 2026-10-21
 
-- Fixed the existing closed-lid mode to keep the session unlocked without changing Lock Screen settings.
-- The built-in backlight turns off on lid close and returns to the previous brightness on lid open.
+- Fixed the existing closed lid mode to keep the session unlocked without changing Lock Screen settings.
+- The screen turns off on lid close and returns to the previous brightness on lid open.
 - Brightness also restores on mode exit or quit, with recovery on the next launch after an unexpected exit.
 - Updated the in-app guide, documentation, and screenshots. No modes were added.
 
@@ -56,7 +53,7 @@ Artifact:
 ## 1.2.3, 2026-10-21
 
 - Mode names now state when the lid must stay open.
-- The closed-lid description explains that the MacBook display turns off while work continues.
+- The closed lid description explains that the MacBook display turns off while work continues.
 - Added Display Off Without Locking guidance and a link to macOS Lock Screen settings in the window, menu, and Settings.
 - Mode descriptions wrap instead of being cut off.
 
@@ -65,13 +62,12 @@ Artifact:
 - `LidLock.dmg`
 - SHA-256: `3b39eab9250b8778759ed48663db7372bb9607d17a45f971f92f60066015c2b8`
 
-## 1.2.2 - 2026-08-20
+## 1.2.2, 2026-08-20
 
-- Added clear explanations before macOS asks for an administrator password.
+- Added explanations before macOS asks for an administrator password.
 - Added shortcuts to Login Items when macOS needs approval.
 - Settings now shows pending approvals.
-- If normal sleep cannot be restored, LidLock stays open and explains the
-  available choices before quitting.
+- If LidLock fails to restore normal sleep, it stays open and shows the choices for quitting.
 - Updated first launch and Settings guidance to show which controls need
   approval.
 
@@ -80,7 +76,7 @@ Artifact:
 - `LidLock.dmg`
 - SHA-256: `7972ce8f12760ec576b0d72eff97d0731057e9de36c317dca45cde12a86a3d1a`
 
-## 1.2.1 - 2026-08-20
+## 1.2.1, 2026-08-20
 
 - Renamed the mode to **Stay Awake with Lid Closed**.
 - The mode no longer forces the Lock Screen. Your macOS Lock Screen settings
@@ -92,7 +88,7 @@ Artifact:
 - `LidLock.dmg`
 - SHA-256: `3c760d3c33c738e73f24442422a9aed4bd8201aefdd6800afbf26bc24f642bc2`
 
-## 1.2.0 - 2026-08-20
+## 1.2.0, 2026-08-20
 
 - Replaced separate power switches with four sleep modes.
 - Added **Keep Running with Lid Closed** so work can continue after the lid
@@ -110,7 +106,7 @@ Artifact:
 - `LidLock.dmg`
 - SHA-256: `56fcf464a2937557661f1b2c49d8f8d1ec465ac9dee36a9415e239a7c37e8a95`
 
-## 1.1.3 - 2026-07-15
+## 1.1.3, 2026-07-15
 
 - Closing the main window now leaves LidLock in the macOS menu bar.
 - Hovering over the menu bar icon shows the current sleep setting.
@@ -122,18 +118,16 @@ Artifact:
 - `LidLock.dmg`
 - SHA-256: `fe735f2a9cebdbd5807163d4099c75df6141d70ca36aa91265562caf1d78e8af`
 
-## 1.1.1 - 2026-06-19
+## 1.1.1, 2026-06-19
 
-Fixed **Allow lid changes without a password** after installation.
-
-- Corrected an installation issue that prevented the option from working.
+- Fixed **Allow lid changes without a password** after installation.
 
 Artifact:
 
 - `LidLock.dmg`
 - SHA-256: `fd4332c3b90b3924fe1a7fba31cde00881edbff7f6e1ddff8e96ec29dd2ce201`
 
-## 1.1.0 - 2026-06-19 (superseded)
+## 1.1.0, 2026-06-19 (superseded)
 
 This build was superseded by 1.1.1 after an installation problem was found. The
 public release asset was removed. Use version 1.1.1 or newer.
@@ -148,7 +142,7 @@ Artifact:
 - `LidLock.dmg`
 - SHA-256: `09c2a796d81e1fcb8930dd30f356aca8a41413aadf66277b4f14186071d0c1b7`
 
-## 1.0.1 - 2026-06-19
+## 1.0.1, 2026-06-19
 
 - Prevented duplicate password prompts when enabling lid closed mode on
   battery.
@@ -162,7 +156,7 @@ Artifact:
 - `LidLock.dmg`
 - SHA-256: `d4e2e1b97ffcf1315f8915a9519ea328dffefde65bd02f3ccd9726aa0ed44c47`
 
-## 1.0.0 - 2026-06-19
+## 1.0.0, 2026-06-19
 
 Initial public release.
 

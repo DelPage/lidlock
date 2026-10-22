@@ -14,6 +14,3 @@ Include:
 - Steps that reproduce the issue.
 - A short description of the security impact, including any relevant macOS
   warnings or approval prompts.
-
-This public repository is for downloads, documentation, and issue tracking.
-LidLock source code is not published here.
