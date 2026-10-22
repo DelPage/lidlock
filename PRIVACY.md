@@ -1,50 +1,25 @@
-# LidLock Privacy Policy
+# LidLock privacy policy
 
-Last updated: 2026-08-20
+Updated October 21, 2026.
 
-LidLock does not collect personal information.
+LidLock does not collect personal information or send diagnostic logs. It has no accounts, analytics, advertising, or automatic network connections.
 
-## What LidLock Does Not Do
+## Data on your Mac
 
-- LidLock does not gather, store, or transmit personal information.
-- LidLock requires no account or sign in and has no analytics, telemetry,
-  advertising, or fingerprinting.
-- LidLock does not make automatic network connections while it runs.
+LidLock stores preferences and the screen brightness it needs to restore. macOS keeps local diagnostic logs for troubleshooting. This information stays on your Mac.
 
-## What Stays On Your Mac
+## System settings
 
-- LidLock stores its preferences locally on your Mac.
-- macOS keeps diagnostic logs on your device for troubleshooting.
+LidLock changes sleep settings. macOS requires administrator approval for closed-lid mode unless you have saved approval in Login Items. Open at login and saved approval are optional; you can turn them off in Settings.
 
-## System Changes
+Closed-lid mode keeps tasks running with the screen dark. LidLock restores brightness when you open the lid, change modes, or quit. After an unexpected exit, it restores brightness on the next launch. Your password and lock settings stay unchanged.
 
-LidLock changes local macOS power settings. Normal Sleep, Stay Awake, Keep
-Screen On, and Walk Away do not require special access.
+LidLock does not request access to your files, screen contents, camera, microphone, location, contacts, or Accessibility controls.
 
-Stay Awake with Lid Closed changes a protected sleep setting, so macOS may ask
-for an administrator password. This approval is used only to change lid sleep
-behavior. It does not give LidLock access to personal information or other apps.
-This mode keeps the display session awake and turns off the built-in backlight
-when the lid closes. LidLock stores your brightness locally and restores it
-when you reopen the lid, leave the mode, or quit. After an unexpected exit, it
-retries restoration on the next launch. Your password and Lock Screen settings
-stay unchanged.
+## Links and donations
 
-Allow lid changes without a password and Open at login are optional. macOS may
-ask you to approve them in Login Items. Turn either option off in LidLock
-Settings to remove it.
-
-LidLock does not request access to files, screen contents, camera, microphone,
-location, contacts, or Accessibility controls. Power settings and approvals
-stay on the Mac.
-
-## Optional Support Link
-
-Selecting **Support LidLock** opens the support page in your browser. If you
-donate, Stripe processes the payment for DelPage Technologies. LidLock does not
-receive your card details.
+Help, GitHub, and Support LidLock open in your browser. Stripe processes optional donations for DelPage Technologies LLC. LidLock does not receive card details.
 
 ## Contact
 
-Questions about this policy: DelPage Technologies at
-[anthony@delpageinc.com](mailto:anthony@delpageinc.com).
+[anthony@delpageinc.com](mailto:anthony@delpageinc.com), DelPage Technologies LLC.

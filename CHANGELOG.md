@@ -3,6 +3,19 @@
 This changelog records current and retired LidLock releases. Downloads are
 available only for versions shown in GitHub Releases.
 
+## 1.2.6, 2026-10-21
+
+- Opens directly to the sleep controls, without a tutorial.
+- Removes repeated descriptions, permission tables, and routine confirmation dialogs.
+- Renames Walk Away to Turn Display Off.
+- Shows pending approval beside the setting that needs it.
+- Shortens labels, errors, and help. The four sleep modes retain their behavior.
+
+Artifact:
+
+- `LidLock.dmg`
+- SHA-256: `c335f13b1b962940c1f45f6c9e502c1eafae40b8370212e3790c74e3240419f0`
+
 ## 1.2.5, 2026-10-21
 
 - Removed the extra Display Off Without Locking help link and popup.

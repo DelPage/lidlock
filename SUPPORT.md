@@ -5,8 +5,7 @@
 <h1 align="center">Support LidLock</h1>
 
 <p align="center">
-  LidLock is free for everyone. If it helps you, a one time donation supports
-  macOS compatibility, signing, testing, and maintenance.
+  Optional donations support LidLock maintenance. All features remain free.
 </p>
 
 <h2 align="center">Choose an amount</h2>
@@ -23,23 +22,12 @@
 </p>
 
 <p align="center">
-  <sub>Stripe provides secure checkout. LidLock never receives card details.</sub>
+  <sub>Stripe processes donations. LidLock does not receive card details.</sub>
 </p>
 
-## What Donations Support
-
-- Apple Developer signing and notarization.
-- Testing against new macOS releases.
-- Compatibility fixes, documentation, and maintenance.
-
-## LidLock Stays Free
-
-Donations are optional. Every feature works the same whether or not you donate,
-and there is no account, subscription, or paid tier.
-
-## Need Help With LidLock?
+## Help
 
 - [Report a problem or request help](https://github.com/DelPage/lidlock/issues)
 - [Download the latest signed release](https://github.com/DelPage/lidlock/releases/latest)
-- [Read the Getting Started guide](GETTING_STARTED.md)
+- [Read LidLock help](GETTING_STARTED.md)
 - [Read the privacy policy](PRIVACY.md)
