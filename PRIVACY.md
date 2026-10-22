@@ -12,7 +12,7 @@ LidLock stores preferences and the screen brightness it needs to restore. macOS 
 
 LidLock changes sleep settings. macOS requires administrator approval for closed-lid mode unless you have saved approval in Login Items. Open at login and saved approval are optional; you can turn them off in Settings.
 
-Closed-lid mode keeps tasks running with the screen dark. LidLock restores brightness when you open the lid, change modes, or quit. After an unexpected exit, it restores brightness on the next launch. Your password and lock settings stay unchanged.
+Screen-off modes keep tasks running with the screen black. Esc restores the screen in open-lid mode. Opening the lid restores it in closed-lid mode. Changing modes or quitting also restores brightness. After an unexpected exit, it restores brightness on the next launch. Your password and lock settings stay unchanged.
 
 LidLock does not request access to your files, screen contents, camera, microphone, location, contacts, or Accessibility controls.
 

@@ -2,22 +2,22 @@
 
 LidLock controls when your Mac and display sleep. It is free and runs on macOS 13 or later.
 
-[Download LidLock 1.2.6](https://github.com/DelPage/lidlock/releases/latest/download/LidLock.dmg)
+[Download LidLock 1.3.0](https://github.com/DelPage/lidlock/releases/latest/download/LidLock.dmg)
 
 ![LidLock sleep controls](screenshots/lidlock-main.png)
 
-## Sleep modes
+## Modes
 
-| Mode | Behavior |
+All four modes keep tasks running and prevent automatic locking. Your Mac's lock settings stay unchanged.
+
+| Mode | Screen behavior |
 |---|---|
-| Normal Sleep | Follow macOS sleep settings. |
-| Stay Awake with Lid Closed | Keep tasks running with the screen dark and Mac unlocked. |
-| Stay Awake (Lid Open) | Keep tasks running. Let the display sleep. |
-| Keep Screen On (Lid Open) | Keep the Mac and display awake. |
+| Screen On, Lid Open | Screen stays on while the lid is open. |
+| Screen Off, Lid Open | Screen goes black. Press Esc to turn it on. |
+| Screen On, Lid Closed | Screen stays on when you close the lid. |
+| Screen Off, Lid Closed | Screen goes black when you close the lid and comes back on when you open it. |
 
-Closed-lid mode restores brightness when you open the lid and leaves your Mac's lock settings unchanged.
-
-**Turn Display Off** turns off the display immediately while tasks continue. This action uses your Mac's lock settings.
+Choose a closed-lid mode before closing the laptop. **Stop Keeping Awake** returns to normal sleep and locking.
 
 ## Install
 
@@ -29,8 +29,8 @@ Open the download, drag LidLock to Applications, and open it. Choose a mode in t
 
 Apple Developer ID signed and notarized. Published by DelPage Technologies LLC.
 
-- Version: 1.2.6
-- SHA-256: `c335f13b1b962940c1f45f6c9e502c1eafae40b8370212e3790c74e3240419f0`
+- Version: 1.3.0
+- SHA-256: `e161636f3181c365c52b80ae364658f4851f844a3dbf2d32a48daf3bcda65268`
 - [Release notes](CHANGELOG.md)
 
 ## Privacy and support

@@ -3,6 +3,19 @@
 This changelog records current and retired LidLock releases. Downloads are
 available only for versions shown in GitHub Releases.
 
+## 1.3.0, 2026-10-21
+
+The four modes now pair Screen On or Screen Off with Lid Open or Lid Closed. All four keep tasks running and prevent automatic locking without changing macOS lock settings.
+
+Screen Off, Lid Open makes the screen black immediately. Press Esc to turn it back on. Screen Off, Lid Closed makes it black when the lid closes and restores brightness when it opens.
+
+Stop Keeping Awake ends the active mode. The previous Turn Display Off action has been removed.
+
+Artifact:
+
+- `LidLock.dmg`
+- SHA-256: `e161636f3181c365c52b80ae364658f4851f844a3dbf2d32a48daf3bcda65268`
+
 ## 1.2.6, 2026-10-21
 
 - Opens directly to the sleep controls, without a tutorial.
