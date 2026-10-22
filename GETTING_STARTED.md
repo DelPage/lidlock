@@ -4,7 +4,7 @@ LidLock is a macOS menu bar utility for controlling when your Mac and display
 sleep. It is free to use, requires no account, and does not collect personal
 information.
 
-The current public download is version 1.2.4.
+The current public download is version 1.2.5.
 
 ## Install LidLock
 
@@ -54,9 +54,6 @@ The display session stays awake internally. Turning off the backlight saves
 power, but running tasks still use battery. Your Mac’s lock settings stay
 unchanged. You can still lock the Mac yourself, and LidLock does not unlock an
 already locked Mac.
-
-**Display Off Without Locking…** explains this behavior in the main window,
-menu bar, and Settings. There is no password setting to change.
 
 ## Permissions and Approvals
 

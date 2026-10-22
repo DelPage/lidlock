@@ -24,8 +24,8 @@ Published by DelPage Technologies.
 ## Free Download
 
 - [Download LidLock.dmg](https://github.com/DelPage/lidlock/releases/latest/download/LidLock.dmg)
-- Current version: **1.2.4**
-- SHA-256: `5040ce8e3f29379db90798d70ac87855ccb0f8bdb849a7be79953bd581725937`
+- Current version: **1.2.5**
+- SHA-256: `ec3df89c82d5fd67ac93173a1f873379db68becf5b999361e511e3d45f2f8898`
 
 LidLock requires **macOS 13 Ventura or newer**. DelPage signs the app with
 Apple Developer ID, and Apple notarizes it.
@@ -57,9 +57,6 @@ The display session stays awake internally. Turning off the backlight saves
 power, but running tasks still use battery. Your Mac’s lock settings stay
 unchanged. You can still lock the Mac yourself, and LidLock does not unlock an
 already locked Mac.
-
-**Display Off Without Locking…** explains this behavior in the main window,
-menu bar, and Settings. There is no password setting to change.
 
 ## Permissions
 

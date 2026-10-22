@@ -3,6 +3,18 @@
 This changelog records current and retired LidLock releases. Downloads are
 available only for versions shown in GitHub Releases.
 
+## 1.2.5, 2026-10-21
+
+- Removed the extra Display Off Without Locking help link and popup.
+- Shortened the closed-lid description and approval messages.
+- Removed repeated guidance from Settings and the setup guide.
+- Sleep and lock behavior are unchanged.
+
+Artifact:
+
+- `LidLock.dmg`
+- SHA-256: `ec3df89c82d5fd67ac93173a1f873379db68becf5b999361e511e3d45f2f8898`
+
 ## 1.2.4, 2026-10-21
 
 - Fixed the existing closed-lid mode to keep the session unlocked without changing Lock Screen settings.
